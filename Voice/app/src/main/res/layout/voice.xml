@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+
+    android:background="#000000">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:id="@+id/lvVoiceReturn"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/circle"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/a"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="500dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:translationY="150dp"
+
+
+
+        android:layout_margin="1dp" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap To Speak"
+        android:id="@+id/voice"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="command"
+        android:id="@+id/Voiceresult"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="12dp"
+        android:textIsSelectable="false"
+        android:textColor="#891212" />
+
+</LinearLayout>
+
